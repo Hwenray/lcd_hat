@@ -16,7 +16,7 @@ disp.Init()
 disp.clear()
 
 #Set the backlight to 100
-disp.bl_DutyCycle(50)
+disp.bl_DutyCycle(100)
 
 # Create blank image for drawing.
 image1 = Image.new("RGB", (disp.width, disp.height), "WHITE")
