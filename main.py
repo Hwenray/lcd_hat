@@ -58,7 +58,7 @@ text= u"もぺもぺ彁壊Rave*it!! 壊Rave*it!! 	"
 draw.text((5, 200),text, fill = "BLUE",font=Font3)
 im_r=image1.rotate(270)
 disp.ShowImage(im_r)
-time.sleep(3)
+time.sleep(30)
 logging.info("show image")
 image = Image.open('pic2.jpg')	
 im_r=image.rotate(270)
